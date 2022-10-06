@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html {
+    font-size: 62.4%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Capriola', sans-serif;
+    background-color: #323232;
+
+}
+
+.insider-1 {
+    background-color: #323232;
+    border-radius: 15px;
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.dom0 {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dom0 a {
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+.introduction:hover {
+    border: 3px solid rgb(204, 22, 122);
+    border-radius: 15px;
+}
+
+.dom0 .education {
+    border: 3px solid rgb(204, 22, 122);
+    border-radius: 15px;
+}
+
+.experience:hover {
+    border: 3px solid rgb(204, 22, 122);
+    border-radius: 15px;
+}
+
+.skills:hover {
+    border: 3px solid rgb(204, 22, 122);
+    border-radius: 15px;
+}
+
+.dom1 {
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dom1 .row {
+    text-align: center;
+}
+
+.dom1 .col {
+    border: 3px solid pink;
+    height: 100%;
+}
+.row1{
+   border-bottom: 4px solid rgb(87, 85, 85);
+}
+.row2{
+    display: flex;
+}
+.col{
+    width: 50%;
+}
