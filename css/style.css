@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 html {
-    font-size: 62.4%;
+    /* font-size: 62.4%; */
 
 }
 
 body {
+    background: url(../background\ pic2.jpg);
+    background-position: center;
+    background-size: cover;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,6 +18,7 @@ body {
     align-items: center;
     background-color: rgb(86, 83, 83);
     font-family: 'Capriola', sans-serif;
+
 
 }
 
@@ -102,6 +106,7 @@ body {
     padding: 0 5rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
 }
 
 .dom2 {
@@ -110,9 +115,41 @@ body {
 }
 
 .dom2 img {
+    max-width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 15px;
-    width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1160px) {
+    .dom0 a {
+        font-size: 15px;
+    }
+
+    .about-me {
+        font-size: 18px;
+    }
+
+    .main-occupation {
+        padding-left: 5rem;
+    }
+
+    .dom2 img {
+        height: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .dom0 a {
+        font-size: 13px;
+    }
+
+    .about-me {
+        font-size: 16px;
+    }
+
+    .dom2 img {
+        height: 60%;
+    }
 }

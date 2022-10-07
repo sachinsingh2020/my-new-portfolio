@@ -6,6 +6,9 @@ html {
 }
 
 body {
+    background: url(../background\ pic4.jpg);
+    background-position: center;
+    background-size: cover;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,7 +55,7 @@ body {
     font-size: 18px;
 }
 
- .introduction:hover {
+.introduction:hover {
     border: 3px solid rgb(204, 22, 122);
     border-radius: 15px;
 }
@@ -73,46 +76,75 @@ body {
 }
 
 .dom1 {
-    font-family: 'Capriola', sans-serif;
-    width: 60%;
+    width: 90%;
+}
+
+.row {
+    height: 50%;
+    display: flex;
     color: white;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
-.intro {
-    height: 15rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.col {
+    width: 50%;
+    font-size: 16px;
+    padding: 0 1rem;
 }
 
-.main-name {
-    font-size: 40px;
-}
 
-.main-occupation {
-    padding-top: 1rem;
-    padding-left: 25rem;
-}
 
-.about-me {
-    padding: 0 5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.dom2 {
-    width: 30%;
-    background-color: #323232
-}
-
-.dom2 img {
-    object-fit: cover;
-    object-position: center;
-    border-radius: 15px;
+.col1 {
     width: 100%;
-    height: 100%;
+    padding: 0 1rem;
+
+}
+
+.low-text{
+    font-size: 15.5px;
+}
+.col2{
+    margin-right: -3rem;
+}
+
+
+.col a {
+    text-decoration: none;
+    color: white;
+}
+.col4{
+    margin-right: -5rem;
+}
+.col a:hover {
+    color: rgb(204, 22, 122);
+}
+.intern-timing{
+    margin-top: -5px;
+}
+.intern-points li{
+    padding: 5px 0;
+}
+
+.row1 {
+    border-bottom: 4px solid rgb(87, 85, 85);
+}
+
+.rating {
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+}
+@media (max-width: 1200px) {
+    .dom0 a {
+        font-size: 15px;
+    }
+  .dom1 .col{
+    font-size: 15px;
+  }
+}
+@media (max-width: 1110px) {
+    .dom0 a {
+        font-size: 14px;
+    }
+  .dom1 .col{
+    font-size: 13px;
+  }
 }

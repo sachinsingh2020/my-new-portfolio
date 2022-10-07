@@ -6,6 +6,9 @@ html {
 }
 
 body {
+    background: url(../background\ pic4.jpg);
+    background-position: center;
+    background-size: cover;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,7 +55,7 @@ body {
     font-size: 18px;
 }
 
- .introduction:hover {
+.introduction:hover {
     border: 3px solid rgb(204, 22, 122);
     border-radius: 15px;
 }
@@ -73,46 +76,75 @@ body {
 }
 
 .dom1 {
-    font-family: 'Capriola', sans-serif;
-    width: 60%;
+    width: 90%;
+}
+
+.row {
+    height: 50%;
+    display: flex;
     color: white;
-    font-size: 20px;
+}
+
+.col {
+    width: 50%;
+    font-size: 16px;
+    padding: 0 1rem;
+}
+
+.col-d {
+    /* border-right: 4px solid rgb(87, 85, 85); */
     display: flex;
     flex-direction: column;
+
 }
 
-.intro {
-    height: 15rem;
+.col-e {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-name {
-    font-size: 40px;
-}
-
-.main-occupation {
-    padding-top: 1rem;
-    padding-left: 25rem;
-}
-
-.about-me {
-    padding: 0 5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.dom2 {
-    width: 30%;
-    background-color: #323232
-}
-
-.dom2 img {
-    object-fit: cover;
-    object-position: center;
-    border-radius: 15px;
-    width: 100%;
     height: 100%;
+}
+
+.col1 {
+    width: 100%;
+    padding: 0 1rem;
+
+}
+
+.col2 {
+    /* padding-left: -5rem; */
+    margin-left: -5rem;
+}
+
+.afwe {
+    padding-right: 5px;
+}
+
+.col a {
+    text-decoration: none;
+    color: white;
+}
+
+.col a:hover {
+    color: rgb(204, 22, 122);
+}
+
+.col li {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 5px 25px;
+
+}
+
+.row1 {
+    border-bottom: 4px solid rgb(87, 85, 85);
+}
+
+.rating {
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+}
+@media (max-width: 1110px) {
+    .dom0 a {
+        font-size: 14px;
+    }
+
 }
